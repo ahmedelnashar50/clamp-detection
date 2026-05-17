@@ -28,20 +28,20 @@ clamp-detection-system/
 ```
 
 ## 🚀 Getting Started
-**1. Installation**
-Clone the repository and install the required dependencies:
+**1. Installation:**
+ Clone the repository and install the required dependencies:
 ```text
 pip install -r requirements.txt
 ```
 
-**2. Running the Backend**
-Start the FastAPI server using Uvicorn:
+**2. Running the Backend:**
+ Start the FastAPI server using Uvicorn:
 ```text
 python -m uvicorn app.main:app --reload
 ```
 
-**3. Launching the Dashboard**
-Open web/index.html in your browser (preferably using VS Code's Live Server to handle local file protocols).
+**3. Launching the Dashboard:**
+ Open web/index.html in your browser (preferably using VS Code's Live Server to handle local file protocols).
 
 ## 📊 Model Performance
 The model was trained for 100 epochs with the following metrics:
