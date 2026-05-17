@@ -28,17 +28,19 @@ clamp-detection-system/
 ```
 
 ## 🚀 Getting Started
-1. Installation
+# 1. Installation
 Clone the repository and install the required dependencies:
-
-Bash
+```text
 pip install -r requirements.txt
-2. Running the Backend
-Start the FastAPI server using Uvicorn:
+```
 
-Bash
+# 2. Running the Backend
+Start the FastAPI server using Uvicorn:
+```text
 python -m uvicorn app.main:app --reload
-3. Launching the Dashboard
+```
+
+# 3. Launching the Dashboard
 Open web/index.html in your browser (preferably using VS Code's Live Server to handle local file protocols).
 
 ## 📊 Model Performance
@@ -62,7 +64,7 @@ To showcase the effectiveness of the fine-tuned YOLO11m model, you can view the 
 
 > **Note:** The detection video shows the system identifying clamps with an average confidence score of **98%**.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 AI Framework: Ultralytics YOLO11
 
 Deep Learning: PyTorch
@@ -71,4 +73,4 @@ Backend: FastAPI, Uvicorn
 
 Frontend: Tailwind CSS, Vanilla JavaScript
 
-Developed by Ahmed Elnashar - AI Engineer
+## Developed by Ahmed Elnashar - AI Engineer
