@@ -1,0 +1,15 @@
+# Core AI
+ultralytics
+torch
+torchvision
+torchaudio
+
+# Web Framework (Backend)
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Utilities
+opencv-python
+numpy
+shutil

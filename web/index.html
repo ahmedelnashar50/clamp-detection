@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clamp AI | Professional Detection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-text { background: linear-gradient(to right, #60a5fa, #34d399); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-slate-900 text-white min-h-screen">
+    <div class="container mx-auto px-4 py-10 max-w-4xl">
+        <h1 class="text-4xl font-black text-center mb-10 gradient-text">Clamp Detection System</h1>
+        
+        <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 shadow-2xl">
+            <input type="file" id="videoInput" accept="video/*" class="block w-full text-sm text-slate-400 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:bg-blue-600 file:text-white hover:file:bg-blue-700 cursor-pointer">
+            
+            <button onclick="uploadAndAnalyze()" id="analyzeBtn" class="mt-6 w-full bg-emerald-600 hover:bg-emerald-500 py-3 rounded-xl font-bold transition-all disabled:opacity-50">
+                Start AI Analysis
+            </button>
+
+            <div id="loader" class="hidden mt-4 text-center text-blue-400 animate-pulse">AI is processing video frames...</div>
+        </div>
+
+        <div class="mt-10 grid md:grid-cols-2 gap-8">
+            <div class="bg-slate-800 p-4 rounded-xl border border-slate-700 text-center">
+                <h3 class="mb-3 text-slate-400 font-medium uppercase">Input Video</h3>
+                <video id="inputVid" controls class="w-full rounded-lg"></video>
+            </div>
+            <div class="bg-slate-800 p-4 rounded-xl border border-blue-500/30 text-center">
+                <h3 class="mb-3 text-blue-400 font-medium uppercase">AI Result</h3>
+                <video id="outputVid" controls class="w-full rounded-lg shadow-lg"></video>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

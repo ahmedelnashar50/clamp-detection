@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Conda
+.conda/
+
+# Project Specific (Datasets & Heavy Files)
+data/
+notebook/runs/
+app/static/uploads/*
+app/static/outputs/predict/*
+!app/static/uploads/.gitkeep
+!app/static/outputs/predict/.gitkeep
+
+# Models (Keep the weights folder but maybe ignore large files if you use Git LFS)
+# models/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
