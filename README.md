@@ -67,8 +67,6 @@ To showcase the effectiveness of the fine-tuned YOLO11m model, you can view the 
 ## 🛠️ Tech Stack
 AI Framework: Ultralytics YOLO11
 
-Deep Learning: PyTorch
-
 Backend: FastAPI, Uvicorn
 
 Frontend: Tailwind CSS, Vanilla JavaScript
