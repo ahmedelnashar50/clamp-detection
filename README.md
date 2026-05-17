@@ -25,8 +25,9 @@ clamp-detection-system/
 ├── data/                   # Raw Dataset & Extraction Scripts
 ├── notebook/               # Colab Training Logs & Research
 └── requirements.txt        # Project Dependencies
+```
 
-🚀 Getting Started
+## 🚀 Getting Started
 1. Installation
 Clone the repository and install the required dependencies:
 
@@ -40,7 +41,7 @@ python -m uvicorn app.main:app --reload
 3. Launching the Dashboard
 Open web/index.html in your browser (preferably using VS Code's Live Server to handle local file protocols).
 
-📊 Model Performance
+## 📊 Model Performance
 The model was trained for 100 epochs with the following metrics:
 
 mAP50: 0.995 (99.5% accuracy at IoU 0.5)
